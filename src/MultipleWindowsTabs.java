@@ -42,7 +42,7 @@ public class MultipleWindowsTabs {
 		int w=element.getRect().getDimension().getWidth();
 		System.out.println(h+" "+w);
 		driver.close();
-		System.out.println("Change");
+		
 
 	}
 
