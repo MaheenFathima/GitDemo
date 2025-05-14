@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -42,6 +42,7 @@ public class MultipleWindowsTabs {
 		int w=element.getRect().getDimension().getWidth();
 		System.out.println(h+" "+w);
 		driver.close();
+		System.out.println("Change");
 
 	}
 
