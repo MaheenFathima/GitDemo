@@ -15,7 +15,7 @@ public class Alerts {
 		driver.findElement(By.id("confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
-
+		System.out.println("changes in new branch develop");
 	}
 
 }
